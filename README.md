@@ -1,2 +1,2 @@
 # Bankist Demo
-A sweet,simple website with lots of functionalities 
+A sweet & simple website (for bankers 😅) with lots of functionalities 
