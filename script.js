@@ -344,3 +344,7 @@ console.log(arr1.flat(2));
 
 const accountMovements = accounts.map(acc => acc.movements);
 console.log(accountMovements);
+const allMovements = accountMovements.flat();
+console.log(allMovements);
+const overalBalance = allMovements.reduce((acc, mov) => acc + mov, 0);
+console.log(overalBalance);
