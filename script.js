@@ -341,3 +341,6 @@ const arr1 = [
 ];
 console.log(arr1.flat(2));
 */
+
+const accountMovements = accounts.map(acc => acc.movements);
+console.log(accountMovements);
