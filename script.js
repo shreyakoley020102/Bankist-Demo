@@ -326,3 +326,6 @@ console.log(accounts);
 
 const account = accounts.find(acc => acc.owner === 'Shreya Koley');
 console.log(account);
+
+const arr = [[1, 2, 3], [4, 5, 6], 7, 8];
+console.log(arr.flat());
