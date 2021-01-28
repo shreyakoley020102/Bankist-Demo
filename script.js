@@ -373,6 +373,18 @@ console.log(overalBalance2);
 /* Extra */
 /* New array declaration */
 /* fill */
+/*
 const x = new Array(7);
 console.log(x);
+x.fill(1);
 x.fill(1, 3, 5);
+*/
+
+labelBalance.addEventListener('click', function () {
+  const movementsUI = Array.from(
+    document.querySelectorAll('.movements__value'),
+    el => Number(el.textContent.replace('€', ''))
+  );
+  console.log(movementsUI);
+  const movementsUI2 = [...document.querySelectorAll('.movements__value')];
+});
