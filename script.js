@@ -369,3 +369,10 @@ const overalBalance2 = accounts
   .flatMap(acc => acc.movements)
   .reduce((acc, mov) => acc + mov, 0);
 console.log(overalBalance2);
+
+/* Extra */
+/* New array declaration */
+/* fill */
+const x = new Array(7);
+console.log(x);
+x.fill(1, 3, 5);
